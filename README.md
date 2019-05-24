@@ -13,6 +13,10 @@ cargo build --release
 ./target/release/hello
 ```
 
+# NOTE
+
+[NOTE.md](./NOTE.md)
+
 # LICENSE
 
 MIT License

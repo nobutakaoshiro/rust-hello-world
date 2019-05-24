@@ -1,6 +1,9 @@
 # 実行環境
 
 ```bash
+rustup --version
+#=> rustup 1.18.3 (435397f48 2019-05-22)
+
 rustc --version
 #=> rustc 1.35.0 (3c235d560 2019-05-20)
 
@@ -21,6 +24,9 @@ cargo clippy
 # setup formatter (rustfmt)
 rustup component add rustfmt
 cargo fmt
+
+# setup pre-commit
+cargo install 
 ```
 
 # 参考
